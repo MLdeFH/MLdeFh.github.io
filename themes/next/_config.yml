@@ -35,7 +35,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "MengLi Hu"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -93,10 +93,10 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
+  tags: /tags/ || tags
+  categories: /categories/ || th
   archives: /archives/ || archive
+  about: /about/ || user
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -114,7 +114,7 @@ menu_icons:
 # scheme: Muse
 #scheme: Mist
 scheme: Pisces
-#scheme: Gemini
+# scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -126,12 +126,12 @@ scheme: Pisces
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-#social:
+social:
   #GitHub: https://github.com/yourname || github
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
-  #FB Page: https://www.facebook.com/yourname || facebook
+  FB Page: https://www.facebook.com/profile.php?id=100010650553056 || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
   #YouTube: https://youtube.com/yourname || youtube
@@ -144,9 +144,9 @@ social_icons:
   transition: false
 
 # Blog rolls
-links_icon: link
-links_title: Links
-links_layout: block
+#links_icon: link
+#links_title: Links
+#links_layout: block
 #links_layout: inline
 #links:
   #Title: http://example.com/
@@ -154,7 +154,7 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-#avatar: /images/avatar.gif
+avatar: /images/avatar.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -242,9 +242,9 @@ post_wordcount:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 # Reward
-#reward_comment: Donate comment here
+reward_comment: Donate comment here
 #wechatpay: /images/wechatpay.jpg
-#alipay: /images/alipay.jpg
+alipay: /images/alipay.jpg
 #bitcoin: /images/bitcoin.png
 
 # Declare license on posts
@@ -698,7 +698,7 @@ pace_theme: pace-theme-minimal
 canvas_nest: false
 
 # three_waves
-three_waves: false
+three_waves: true
 
 # canvas_lines
 canvas_lines: false
@@ -712,7 +712,7 @@ canvas_sphere: false
 # alpha: The transparency of the ribbon.
 # zIndex: The display level of the ribbon.
 canvas_ribbon:
-  enable: false
+  enable: True
   size: 300
   alpha: 0.6
   zIndex: -1
